@@ -57,3 +57,57 @@ body{
 p{
     margin: 0;
 }
+
+
+/* Telefonlar için (max 480px) */
+@media screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .photo-frame {
+    width: 80px;
+    height: 80px;
+  }
+
+  #name {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet için (481px - 768px arası) */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .photo-frame {
+    width: 90px;
+    height: 90px;
+  }
+
+  #name {
+    font-size: 1.3rem;
+  }
+}
+
+/* Büyük ekranlar (laptop / masaüstü) */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 400px;
+  }
+
+  .photo-frame {
+    width: 120px;
+    height: 120px;
+  }
+
+  #name {
+    font-size: 1.7rem;
+  }
+}
